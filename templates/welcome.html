@@ -1,18 +1,47 @@
 {% extends "base.html" %}
 {% block content %}
         <section>
-            <img src="/static/Kitsune-ken.jpeg" width="375">
+            <img src="/static/Kitsune-ken.jpeg" width="325">
         </section>
-        <article>
+        <article class="contents">
             <p><span class="rps">Rock / Paper / Scissors</span> is a hand game usually played between two people.</p>
             <p>The game would date back to the time of the Chinese Han dynasty (206 BCE – 220 CE).<br>
             It was imported to Japan and became very popular. It only spread beyond East Asia in the 2o<sup>th</sup>Century.</p>
+            <div class="button-play">
+                <a href="#gameplay">gameplay</a>
+                <a href="#play-a-game">play a game</a>
+            </div>
         </article>
-        <div class="gameplay">
+        <div id="gameplay" class="gameplay">
             <h1>gameplay</h1>
         </div>
-        <article>
-            <p>The players may count aloud to three, either raising one hand in a fist and swinging it down with each syllable or holding it behind their back</p>
-            <p><a href="/rock-paper-scissors/play/">Play</a></p>
+        <section class="game-play">
+            <div id="rock"><h3>Rock</h3><img src="/static/Rock.jpg" height="300"></div>
+            <div id="paper"><h3>Paper</h3><img src="/static/Paper.jpg" height="300"></div>
+            <div id="scissors"><h3>Scissors</h3><img src="/static/Scissors.jpg" height="300"></div>
+        </section>
+        <article class="contents">
+            <p>The players may say aloud <span class="rps">Rock / Paper / Scissors</span>,<br>
+            either raising one hand in a fist and swinging it down<br>
+            with each syllable or holding it behind their back.<br>
+            They then "throw" by extending it towards their opponent.</p>
+            <p>For this modern online version,<br>just select your choice.</p>
+            <div class="winner">
+                <p>As a reminder:</p>
+                <p><span class="rps">Rock</span> wins over <span class="rps">Scissors</span></p>
+                <p><span class="rps">Paper</span> wins over <span class="rps">Rock</span></p>
+                <p><span class="rps">Scissors</span> win over <span class="rps">Paper</span></p>
+            </div>
+        </article>
+        <div id="play-a-game" class="gameplay">
+            <h1>play a game</h1>
+        </div>
+        <article class="contents">
+            <p class="play">Are you all set up to play <span class="rps">Rock / Paper / Scissors</span>?</p>
+            <p>You can play against the other you or<br>challenge our complex machine who will take over the world soon:</p>
+            <div class="button-play">
+                <a href="/rock-paper-scissors/play/">play against the other you</a>
+                <a href="/rock-paper-scissors/play/computer/">play against the non-human</a>
+            </div>
         </article>
 {% endblock %}

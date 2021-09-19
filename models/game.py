@@ -8,15 +8,17 @@ class Game():
         if choice_1 == choice_2:
             return "It's a draw, dude!"  
         if choice_1 == "rock" and choice_2 == "scissors":
-            result = "Player 1 wins by playing rock"
+            result = "Rock wins"
         elif choice_1 == "rock" and choice_2 == "paper":
-            result = "Player 2 wins by playing paper"
+            result = "Paper wins"
         elif choice_1 == "paper" and choice_2 == "rock":
-            result = "Player 1 wins by playing paper"
+            result = "Paper wins"
         elif choice_1 == "paper" and choice_2 == "scissors":
-            result = "Player 2 wins by playing scissors"
+            result = "Scissors win"
         elif choice_1 == "scissors" and choice_2 == "paper":
-            result = "Player 1 wins by playing scissors"
+            result = "Scissors win"
         elif choice_1 == "scissors" and choice_2 == "rock":
-            result = "Player 2 wins by playing rock"
+            result = "Rock wins"
+        else:
+            result = None
         return result

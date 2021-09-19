@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
-    <p>Player 1 played {{ choice_1 }}</p>
-    <p>Player 2 played {{ choice_2 }}</p>
+<article class="contents">
+    <p><span class="rps">You</span> played <span class="rps">{{ choice_1.title() }}</span></p>
+    <p><span class="rps">The Other You</span> played <span class="rps">{{ choice_2.title() }}</span></p>
     <h4>{{ winner_is }}</h4>
+    <div class="button-play">
+        <a href="/rock-paper-scissors/play/">try again</a>
+        <a href="/rock-paper-scissors/play/computer/">play against the non-human</a>
+    </div>
+</article>
 {% endblock %}

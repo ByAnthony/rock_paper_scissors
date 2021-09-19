@@ -14,27 +14,38 @@ body > header{
 body > header > a{
     padding:8px 33px 5px 33px;
     font-family:"Homemade Apple";
-    color:black;
+    color:crimson;
     text-decoration:none;
     font-size:2vw;
 }
 body > header > a:hover{
-    color:crimson;
+    color:black;
 }
 body > section{
     text-align:center;
 }
-body > article{
+.contents{
     padding:40px 0 70px 0;
     text-align:center;
 }
-body > article p{
-    line-height:1.5vw;
+.contents p{
+    line-height:2vw;
 }
-body > article .rps{
+.contents .rps{
     font-family:"Homemade Apple";
+    padding:0 3px 0 3px;
 }
-body > article > a{
+.contents h4{
+    padding:25px 0 5px 0;
+    font-family:"Homemade Apple";
+    font-size:2vw;
+}
+.contents h5{
+    padding-top:25px;
+    font-family:"Homemade Apple";
+    font-size:1.5vw;
+}
+.contents a{
     padding:5px 20px 5px 20px;
     font-family:"Homemade Apple";
     color:crimson;
@@ -43,13 +54,13 @@ body > article > a{
     border-radius:12px;
     border:0.1vw solid crimson;
 }
-body > article > a:hover{
+.contents a:hover{
     color:white;
     background-color:crimson;
 }
 body .gameplay{
-    height:600px;
-    background:url(Seal_of_China.svg) rgba(36,36,36,.8);
+    height:450px;
+    background:url(Seal_of_China.svg) rgba(66, 50, 50, 0.9);
     background-attachment:fixed;
     background-position:center center;
     text-align:center;
@@ -58,5 +69,77 @@ body .gameplay h1{
     font-family:"Homemade Apple";
     font-size:5vw;
     color:white;
-    padding-top:220px;
+    padding-top:150px;
+}
+.game-play{
+    padding:150px 0px 40px 0px;
+}
+.game-play h3{
+    font-family:"Homemade Apple";
+    font-size:1.5vw;
+}
+.play{
+    padding-top:80px;
+}
+.button-play{
+    padding-top:40px;
+}
+.button-play a{
+    margin-right:10px;
+}
+.winner{
+    padding:50px 0 50px 0;
+}
+#rock{
+    display:inline-block;
+}
+#paper{
+    display:inline-block;
+}
+#scissors{
+    display:inline-block;
+}
+label{
+    font-family:"Homemade Apple";
+    font-size:1.5vw;
+}
+input[type=text]{
+    border:none;
+    border-bottom: 1px solid rosybrown;
+    font-family:Snippet;
+    font-size:2vw;
+    text-align:center;
+    outline:none;
+    margin-bottom:35px;
+}
+input[type=text]:focus{
+    border-bottom:1px solid crimson;
+}
+select {
+    padding:16px 20px;
+    border:none;
+    outline:none;
+    font-size:1vw;
+    font-family:Snippet;
+    border-radius:5px;
+    background-color:#f1f1f1;
+  }
+input[type=submit]{
+    padding:5px 20px 5px 20px;
+    font-family:"Homemade Apple";
+    font-size:1vw;
+    color:crimson;
+    text-decoration:none;
+    background-color:white;
+    border-radius:12px;
+    border:0.1vw solid crimson;
+    outline:none;
+    margin-top:50px;
+}
+input[type=submit]:hover{
+    color:white;
+    background-color:crimson;
+}
+footer{
+    padding:50px;
 }

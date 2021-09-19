@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="contents">
+    <form action="/rock-paper-scissors/play/computer/result/">
+        <div id="name">
+            <p><label for="name">What is your name human?</label></p>
+            <p><input type="text" name="name" id="name"></p>
+        </div>
+        <div id="choice">
+            <p><label for="choice">Chose wisely...</label></p>
+            <p><select name="choice">
+                <option value="rock">Rock</option>
+                <option value="paper">Paper</option>
+                <option value="scissors">Scissors</option>
+            </select></p>
+            <input type="submit" value="let see what is your destiny">
+        </div>
+    </form>
+</article>
+{% endblock %}
