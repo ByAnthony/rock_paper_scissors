@@ -6,7 +6,7 @@ class Game():
 
     def play_game(self, choice_1, choice_2):
         if choice_1 == choice_2:
-            return "It's a draw, dude!"  
+            return "It's a draw!"  
         if choice_1 == "rock" and choice_2 == "scissors":
             result = "Rock wins"
         elif choice_1 == "rock" and choice_2 == "paper":

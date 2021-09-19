@@ -35,8 +35,8 @@ def display_winner_vs_computer():
     new_player = Player(player_name, player_choice)
 
     computer_name = "Computer"
-    computers = ["rock", "paper", "scissors"]
-    computer_choice = random.choice(computers)
+    computer_choices = ["rock", "paper", "scissors"]
+    computer_choice = random.choice(computer_choices)
     computer = Player(computer_name, computer_choice)
     
     game_on = Game(new_player, computer)
