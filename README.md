@@ -2,7 +2,7 @@
 
 Create a simple flask app to allow the user to play rock, paper, scissors in their browser.
 
-## Table of contents
+## Contents
 * [Brief](#brief)
 * [Technologies](#technologies)
 * [Setup](#setup)
