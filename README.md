@@ -1,6 +1,6 @@
 # Rock / Paper / Scissors
 
-Create a simple flask app to allow the user to play rock, paper, scissors in their browser.
+Create a simple flask app to allow the user to play rock, paper, scissors in their browser. This was built during the week 3 of the CodeClan Software Developer.
 
 ## Contents
 * [Brief](#brief)
@@ -21,7 +21,7 @@ Create a simple flask app to allow the user to play rock, paper, scissors in the
 - Extend the game with a new page to allow the user to play against the computer.
 - If they go to /play it will take the user to a form to allow them to enter their name and choose a move from a dropdown.
 - Add a link to this page to the base template.
-- Write a new method in the game class to generate a computer player with the name "Computer" and a random choice from rock, paper and scissors. (Look into the random.choice) library.
+- Write a new method in the game class to generate a computer player with the name "Computer" and a random choice from rock, paper and scissors.
 - Use the same game logic and results template to display the winner.
 
 ## Technologies
