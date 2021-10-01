@@ -2,7 +2,7 @@
 
 Create a simple flask app to allow the user to play rock, paper, scissors in their browser. This was built during the week 3 of the CodeClan Software Developer.
 
-(./static/images/Screenshot 2021-10-01 at 05.51.33.png)
+(./static/Screenshot 2021-10-01 at 05.51.33.png)
 
 ## Contents
 * [Brief](#brief)
