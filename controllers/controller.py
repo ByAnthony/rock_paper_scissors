@@ -28,7 +28,7 @@ def display_winner(choice_1, choice_2):
 def play_vs_computer():
     return render_template('computer.html', title='Rock / Paper / Scissors - Play Against The Non-Human')
 
-@app.route('/rock-paper-scissors/play/computer/result/', methods=['GET', 'POST'])
+@app.route('/rock-paper-scissors/play/computer/result/', methods=['POST'])
 def display_winner_vs_computer():
     player_name = request.values['name']
     player_choice = request.values['choice']

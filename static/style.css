@@ -140,6 +140,22 @@ input[type=submit]:hover{
     color:white;
     background-color:crimson;
 }
+.game img{
+    transition:0.5s linear;
+}
+.game a{
+    text-decoration:none;
+    border:none;
+}
+.game a:hover{
+    text-decoration:none;
+    border:none;
+    background-color:white;
+}
+.game a img:hover{
+    transform:translateY(30px);
+    transition:0.5s linear;
+}
 footer{
     padding:50px;
 }
