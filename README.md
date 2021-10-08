@@ -19,12 +19,16 @@ Create a simple flask app to allow the user to play rock, paper, scissors in the
 - Add a welcome page (and a route to get it) to explain the rules before the user picks their move. Add a link to this in the base template.
 - Add some CSS to either/both of your pages.
 
+![](https://github.com/ByAnthony/rock_paper_scissors/blob/main/static/Screenshot%202021-10-08%20at%2009.52.03.png?raw=true)
+
 ### Further extension:
 - Extend the game with a new page to allow the user to play against the computer.
 - If they go to /play it will take the user to a form to allow them to enter their name and choose a move from a dropdown.
 - Add a link to this page to the base template.
 - Write a new method in the game class to generate a computer player with the name "Computer" and a random choice from rock, paper and scissors.
 - Use the same game logic and results template to display the winner.
+
+![](https://github.com/ByAnthony/rock_paper_scissors/blob/main/static/Screenshot%202021-10-08%20at%2009.51.43.png?raw=true)
 
 ## Technologies
 The project was created with:
