@@ -36,8 +36,14 @@ The project was created with:
 ## SetUp
 Pre-requisites and usage:
 - Install Python3 and pip3
-- Install Flask: pip3 install flask
-- Install psycopg2: pip3 install psycopg2
+- Install Flask: 
+```
+pip3 install flask
+```
+- Install psycopg2: 
+```
+pip3 install psycopg2
+```
 - Clone/download the project and navigate to that directory in your terminal client
 - Start Flask:
 ```
