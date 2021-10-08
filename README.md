@@ -28,7 +28,7 @@ Create a simple flask app to allow the user to play rock, paper, scissors in the
 - Write a new method in the game class to generate a computer player with the name "Computer" and a random choice from rock, paper and scissors.
 - Use the same game logic and results template to display the winner.
 
-![](https://github.com/ByAnthony/rock_paper_scissors/blob/main/static/Screenshot%202021-10-08%20at%2009.51.43.png?raw=true)
+![](https://github.com/ByAnthony/rock_paper_scissors/blob/main/static/Screenshot%202021-10-08%20at%2009.55.50.png?raw=true)
 
 ## Technologies
 The project was created with:
