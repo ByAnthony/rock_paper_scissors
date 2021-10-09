@@ -37,7 +37,7 @@ The project was created with:
 - HTML/CSS;
 - Flask.
 
-## SetUp
+## Setup
 Pre-requisites and usage:
 - Install Python3 and pip3;
 - Install Flask: 
