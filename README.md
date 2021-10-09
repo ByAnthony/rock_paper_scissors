@@ -53,4 +53,4 @@ pip3 install psycopg2
 ```
 flask run
 ```
-Navigate to the site in your browser at http://localhost:5000/rock-paper-scissors/
+- Navigate to the site in your browser at http://localhost:5000/rock-paper-scissors/
